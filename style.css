@@ -129,10 +129,10 @@ span{
   padding: 22px 38px;
   border: none;
   border-radius: 80px;
+  transition: 0.4s ease-in-out;
 }
 .hero__btn:hover{
   background-color: #2f327d;
-  box-shadow: 7px 8px 4px white;
   color: white;
 }
 .hero__name {
@@ -196,12 +196,7 @@ span{
   margin-top: 33px;
   align-items: center;
 }
-.icon{
-  transition: 0.5s ease-in-out;
-}
-.icon:hover{
-  transform: scale(1.1);
-}
+
 .team{
   margin-top: 23px;
 }
@@ -438,10 +433,6 @@ span{
   padding-top: 50px;
   margin-bottom: 20px;
   text-align: center;
-}
-.box__name:hover{
-  color: #2f327d;
-  text-shadow: 4px 7px 4px #2f327d;
 }
 .box__one {
   display: inline;
